@@ -6,7 +6,6 @@ import org.junit.*;
 
 import org.neo4j.test.rule.DbmsRule;
 import org.neo4j.test.rule.ImpermanentDbmsRule;
-import org.testcontainers.containers.BindMode;
 
 import static apoc.load.LoadCsvTest.assertRow;
 import static apoc.util.MapUtil.map;

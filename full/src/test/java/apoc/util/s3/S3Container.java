@@ -2,7 +2,6 @@ package apoc.util.s3;
 
 import apoc.util.JsonUtil;
 import apoc.util.TestUtil;
-import apoc.util.Util;
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.services.s3.AmazonS3;

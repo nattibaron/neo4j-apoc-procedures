@@ -1,7 +1,6 @@
 package apoc.custom;
 
 import apoc.util.TestContainerUtil;
-import apoc.util.TestUtil;
 import apoc.util.TestcontainersCausalCluster;
 import org.junit.*;
 import org.neo4j.driver.Session;
