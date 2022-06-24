@@ -147,6 +147,8 @@ public class DocumentToGraph {
                             for (int i = 0; i < list.size(); i++) {
                                 Array.set(value, i, list.get(i));
                             }
+                        } else {
+                            value = Array.newInstance(String.class, 0);
                         }
                     }
                     node.setProperty(e.getKey(), value);
@@ -229,7 +231,8 @@ public class DocumentToGraph {
                     return false; // TODO add support for array of value objects
                 }
             }
-        }
+        } 
+
         return true;
     }
 
